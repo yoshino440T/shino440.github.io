@@ -4,6 +4,15 @@ html{
     background:url(hana.jpg);
 }
 
+html,body{
+    height: 100%
+}
+
+.page{
+    position: relative;
+    background:#fff7d09b
+}
+
 
 
 @keyframes slidy {
@@ -18,7 +27,9 @@ html{
     100% { left: -400%; }
     }
     
-    body { margin: 0; } 
+    body { 
+        margin: 0; 
+    } 
     div#slider { 
         overflow: hidden; 
         width: 700px;
